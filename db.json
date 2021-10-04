@@ -1,0 +1,273 @@
+
+{
+
+    "Chthonic": [
+      {"id": 1,
+      "name": "Lord Hades",
+      "title": "God of the Dead",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/64/Hades.png/",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...What else is there to say about the Master? Master not just of the House in which I work, but of the entirety of the domain beneath the earth, the place we all end up after we die. He is a god of character, I have to give him that. In life, I once served someone who reminded me of him a little, yet even the kingliest of mortals pales in comparison. Suffice it, then, to say that the Lord Hades takes matters of the Underworld in utmost seriousness. He is impatient with his only son. Impatient to make progress at his never-ending work, for he presides over an endless procession of the dead. The Master claims that he alone can tend to their affairs, but not-so-secretly, I think, desires that his son assisted him. The Master may be dedicated to his work, but has no love for it, nor does he harbor any love for his own family upon Olympus, whom I think he blames for every aspect of his misery. Perhaps you think that he is undeserving of one's sympathies; but, he has some of mine, and I am grateful to him, that he chose me, and released me from an aimless death, and into his employ."
+    },
+    {
+      "id": 2,
+      "name": "Zagreus",
+      "title": "Prince of the Underworld",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/2/29/Zagreus.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...Take one look at him and I think any questions of his parentage are soon resolved. He never seemed to like it much, there, growing up within Lord Hades' well-appointed house. One day I took him on as a disciple, under orders from Lord Hades; the Master worried that his heir lacked any firm direction in his life. And, indeed, Zagreus took well to the martial ways, and I am proud to say now that he was my student."
+    },
+    {
+      "id": 3,
+      "name": "Nyx",
+      "title": "Night Incarnate",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/8e/Nyx.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...Mother Night, we like to call her, though rare is the occasion when she dotes on us. She has her many, many children to look after, many of whom reside now in locales beyond my reckoning, and perhaps beyond hers. Yet, nonetheless, she toils about the Master's House, and conducts such affairs that fail to reach his notice or gain his attention. She and the Master do enjoy a sort of harmony, for even as he tends personally to the dead, she watches over the domain itself. They tolerate each other, in respect of one another's power."
+    },
+    {
+      "id": 4,
+      "name": "Charon",
+      "title": "Stygian Boatman",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/e/e2/Charon.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...The Stygian Boatman is a lot of things, although I am afraid he isn't much for conversation; I have tried, though perhaps not persuasively enough. I wonder where he finds the time to mill about as sometimes he is prone. His duty as the shepherd of the recently deceased must keep him very busy, overall, yet even still he finds the time to collect trinkets and to sell them back to us, for reasons only he could understand. He seems to have a certain motive of his own; but it cannot be fathomed, nor can the boatman's manner be deciphered by one such as I. I choose to think he serves a purpose higher even than the Master's own."
+    },
+    {
+      "id": 5,
+      "name": "Hypnos",
+      "title": "Sleep Incarnate",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/4/46/Hypnos_newest.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...It is said that Sleep is the cousin of Death. That turns out to be not quite correct, insofar as the two, in fact, are brothers, born to Nyx herself. The former of the two, we call him Hypnos; he whiles away, half-sleeping, watching over the Pool of Styx in the foyer of the House, taking stock of those arriving in the Master's domain, or returning to it. Though Hypnos may be lacking in propriety, he brings a certain cheer, however unconventional, into the grim proceedings of the House. It is a wonder that the Master is so tolerant of this. Some say it is because the Master is oblivious to Hypnos, but it is my choice to think the Master secretly and silently enjoys the bit of levity the fellow purposely or inadvertently provides"
+    },
+    {
+      "id": 6,
+      "name": "Thanatos",
+      "title": "Death Incarnate",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/9b/Thanatos.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...Few gods traverse the boundary that divides the realm of surface realm where dwell the living, and this one, where dwell the dead. Thanatos ranks high even among those of such authority and power. Although it is my Master who presides over the Underworld, Thanatos is death itself, brother of Sleep, an instrument in sending mortals on their way into the Underworld; more peacefully than violently, mind you, as I did not encounter him myself when my time came, by Ares' and Apollo's design. As death is swift and unavoidable to mortals, so is Thanatos devoted without question to his work. Fatherless, he honors always his mother, the goddess Nyx. He tirelessly serves his foreign Master, whose son at least he adores, despite their opposing manner and outlook. Thanatos would never speak of this, but it is clear, to me. Whence came the bond they share? My thought is that the Master's son must be the god of blood; of life. Thus, they are inexorably drawn."
+    },
+    {
+      "id": 7,
+      "name": "Megaera",
+      "title": "First of the Furies",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/f9/Megaera.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...The ancient Fury Sisters deal retribution for eternity against all those whose lives unspeakably befouled the lives of others. They each seem to relish their grim work, though none so much as Megaera, the first among them. Her whip is very much notorious around these parts, and there are those who say she is more than my equal in the martial ways, a conjecture I see no reason to test. Though she by all accounts appears to lead a solitary life, she and the Master's son do have some history; although I am not privy to the details, and know much better than to ask. I do, however, know what she herself has volunteered to me, as we have on occasion passed the off-work time together in the Master's lounge. She has no parents; her surrogate mother is the goddess Nyx. She resents the Master's youthful son for words he spoke in careless arrogance. She follows the Master's orders and honors him; but her commitment is to the House itself, I think"
+    },
+    {
+      "id": 8,
+      "name": "Alecto",
+      "title": "Tormentor of Passions",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/69/Alecto.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...Each of the ancient Fury Sisters is preoccupied eternally with tormenting a certain swath of moral crime, and Alecto enjoys the broadest swath of all: those who, during their mortal days, committed wrongful acts at the behest of their impulsive passions. With that being the case, I see it somewhat as a miracle that I myself avoided her barbed whip here in the Underworld; and I am thankful for it, for Alecto's reputation paints her as a being best given the widest possible berth. That she appears to be on questionable terms with her own sisters, and is not permitted in the House of Hades due to profane acts of insubordination long past, perhaps is all that needs be said of her for now."
+    },
+    {
+      "id": 9,
+      "name": "Tisiphone",
+      "title": "Tormentor of Murder",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/b/b6/Tisiphone.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...Among each of the deathless Fury Sisters, the one known as Tisiphone is probably responsible for the particularly fearsome reputation they all share, both on the surface of the earth and here below. This is of course not to diminish the deserved notoriety that they each, in turn, have earned through their efficient torturing of those who tried to get away with terrible misdeeds in life; and yet, Tisiphone, among the three, least shares the qualities with which mortals can identify. What could have caused Tisiphone to focus so relentlessly upon her task of punishing murder? She is unlikely to ever say, although the tales of the Furies having come from the spilt blood of the eldest of the Titans offers fertile ground for speculation on the matter."
+    },
+    {
+      "id": 10,
+      "name": "Chaos",
+      "title": "Primordial Originator",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/8f/Chaos.png",
+      "type": "Chthonic Gods",
+      "favorited": false,
+      "description": "...Even Nyx, our Mother Night, comes from somewhere; even the Olympians above, and the Master himself. Eternal though they are, they came unto this world after they, or their ancestors, sprang from the darkness of Chaos. Here, within the Underword, we are closer to Chaos than the mortals and the gods above. Closer to that first, long-forgotten, primordial consciousness, oft forgotten now or believed dead and gone. Yet, as all of us residing in this realm are well aware, the dead survive eternally, and thus are closer to the gods. Perhaps, then, all of us exist and make our choices precisely as Chaos envisioned in ancient aeons past."
+    }
+    ],
+
+
+    "Olympian": [
+     {
+      "id": 1,
+      "name": "Zeus",
+      "title": "King of the Olympians",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/3/3c/Zeus.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...The Master of the Heavens, god among gods; so much of my mortal life was impacted by him. And now, even in death, I serve his brother. I do not think that I have much to say for the Lord Zeus which is not widely known, already. Once, he overthrew the Titans, his own ancestors, to wrest control of all the heavens and the earth. He yet presides as ruler over all. Lord Hades bears no love for him, for reasons I can scarce begin to contemplate; it is as though Lord Hades chooses willingly not to consort with the Olympians."
+    },
+    {
+      "id": 2,
+      "name": "Poseidon",
+      "title": "God of the Sea",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/4/43/Poseidon.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...The Master of the Seas, the Earthshaker, Brother to Lord Hades and Lord Zeus... the Lord Poseidon. I am ever grateful that, while I was living, he was merciful to me. Down here, however, I must say I rarely feel his influence. All of us... we are beneath him, now. How many of my brethren did he drown during my mortal days? He comes across as affable, yet I've not forgiven him. Lord Hades seems to have no love for him, either, equating him to Zeus, and shunning both alike. It's all a business best avoided by my estimation."
+    },
+    {
+      "id": 3,
+      "name": "Athena",
+      "title": "Goddess of Wisdom",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/68/Athena.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...Of some things I am certain, and one of them is this: That there were many times, during my mortal life, when my spear found its mark thanks to Pallas Athena. She favors those of dispositions such as mine, and I would like to think her efforts keep the violent lusting of Ares, her half-brother, well in check. If anybody on Olympus might have the capacity to mend the rift between my Master and themselves, it must be her; though, even in all her wisdom, I remain unsure if she can sway my Master's obstinance."
+    },
+    {
+      "id": 4,
+      "name": "Aphrodite",
+      "title": "Goddess of Love And Beauty",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/c/c6/Aphrodite.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...Aphrodite wields her beauty and her charm with much the same lethality as I could wield the spear. I have seen her handiwork first-hand, and it is often not as pretty as she is. I sometimes think that she, among all the Olympians, may be the mightiest of all. A crashing wave or thundering tempest are preferable to a broken heart. Yet, while love's the force that brought me and countless others low in life, it also brought me and countless others strength, beyond the bounds of normal men. Still I fear that Aphrodite's power is the most terrible in all the world."
+    },
+    {
+      "id": 5,
+      "name": "Artemis",
+      "title": "Goddess of the Hunt",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/d/d2/Artemis.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...The goddess of the hunt has always held my highest admiration. Unlike so many of her brethren on Olympus, she seems unconcerned with being praised at every turn by mortals, and instead she dutifully holds her station as a master of the natural world. Even Lord Hades may hold some respect for her, I think. Certainly her power is responsible for no small quantity of shades in this domain. Lord Hades and the Lady Artemis have certain traits in common, I suppose; each solitary and committed to their work. If only my Lord Hades understood that someone such as Artemis could be someone to confide in, rather than resent along with all the others on Olympus."
+    },
+    {
+      "id": 6,
+      "name": "Ares",
+      "title": "God of War",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/0/05/Ares.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...Although my heart has long since stopped, it yet holds love in it for all the gods, save one, the one who made and ruined me as well. I have no kind words to impart to him, except, perhaps, in form of this concession: War, much like the heavens and the sea, can be considered as a force of nature. It keeps men down; they will never grow too plentiful, this way, or near as mighty as the gods. And yet, men worship Ares willingly; they are so much like him. I should know. I was a warrior myself. Only in death do I begin to fully grasp my wrongs."
+    },
+    {
+      "id": 7,
+      "name": "Dionysus",
+      "title": "God of Wine",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/90/Dionysus.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...Perhaps I ought to feel a kinship with this easygoing son of Zeus, for it is said that he has some mortal blood in him, not just divinity. This may explain why he, among Olympians, is so well-loved by mortal-kind; because he loves them back, bringing to them more joy than suffering, for the most part. Being rather unlike the other gods in this regard, he nonetheless maintains a careful distance from the Underworld, generally severing his ties with all his mortal followers upon the moment of their deaths. Why confront the woes of the dead when you can live in eternal feast?"
+    },
+    {
+      "id": 8,
+      "name": "Hermes",
+      "title": "God of Swiftness",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/0/0d/Hermes.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...One of the free-spirited sons of Zeus, he is patron to travelers, traders, even tricksters. Youthful in spirit and appearance, he could be mistaken for a common lad, if not for his extraordinary swiftness. None whom I know approach his agility or athleticism. He puts this peerless skill to a specific use, serving as the messenger of Olympus. Vast distances are nothing to him. Yet, there is something more to Hermes: He is the only god upon Olympus who dutifully serves the Underworld, in addition to his Olympian affairs. The Underworld is an orderly place, but the souls of the dead must first be brought to its brink. He has much to do with this. He seems to have ingratiated himself to the boatman, Charon -- notoriously unapproachable even by the Underworld's own. Thus, it is my belief that Hermes, besides his many talents, is the god of more than he appears."
+    },
+    {
+      "id": 9,
+      "name": "Demeter",
+      "title": "Goddess of Seasons",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/0/03/Demeter.png",
+      "type": "Olympian Gods",
+      "favorited": false,
+      "description": "...Over time, mortals have come to fear great Demeter, eldest of Olympians, goddess of seasons, bringer of plenty, and taker-away of it. I cannot imagine she is moved by any of their offerings. Much is said of her in hushed tones, not unlike the ones reserved for the master here. Once, she administered her gifts of sustenance with generosity, until some stroke of Fate befell. She changed, and never been as giving since. The mortals who once prayed to her for plenty now beg mostly for mercy. My understanding is, despite popular belief, Demeter is no direct relation to Lord Hades or his brothers, being born of more ancient Titan stock; she certainly has taken pains to distance herself from Zeus in particular, often leaving Olympus for long stretches, in search of something. Or someone. Not that I would know a thing of it; only the mutterings of shades descended to this realm from freezing cold or famine. Surely, they pray, the seasons are due for a turn for the better?"
+    }
+],
+
+    "Other": [
+        {
+      "id": 1,
+      "name": "Achilles",
+      "title": "Forgotten Hero",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/88/Achilles.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...I see no reason to regale you with stories of my past. Suffice it that I fought, as bravely as I could, alongside many of the finest men the world has ever known. I buried far too many of them, and sent many others to this place, where now at last we are all peers. I am fortunate that the Master of the House took pity upon me, and spared me from eternal boredom in Elysium with an existence closer to the times when I still lived, and had a job to do. Yet, I am unmade, unwhole, here in this place; alone, without the one with whom I shared my life when we were flesh and blood. He is somewhere within this realm, yet our time, I think, is long since passed. But, I have made mistakes before... So many! Surely, in believing this, I could be making yet another? The infinite awaits. Given limitless time... is anything truly impossible? Yet, our finite mortal time both limits us and spurs our actions. Thus, now, I am always of two minds."
+    },
+    {
+      "id": 2,
+      "name": "Orpheus",
+      "title": "Court Musician",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/f4/Orpheus_new.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...No one sings a sweeter, sadder song than Orpheus, who, if I'm to understand correctly, is among the only mortals who once ventured down into the Underworld, and returned to tell the tale. He now resides among us permanently, ever mournful of what could have been. The Master seems to take some pity on him, though, or simply likes his songs; he serves as court musician in the House. I empathize with his desire for reunion with the shade of one he's loved and lost. But, sometimes, I fear that Orpheus seems to have lost more than his love. I pray that he shall find his muse eventually. For if he cannot... if someone who once had such fiery resolve could be brought so low, become so utterly resigned in death... what hope do any of us have? The consolation of eternity is knowing we all can resolve our problems, given enough time and effort. But the terror of it is knowing we cannot escape those problems, either."
+    },
+    {
+      "id": 3,
+      "name": "Sisyphus",
+      "title": "Tortured Soul",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/a/a5/Sisyphus_final.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...Most of those who earn the highest form of punishment in Tartarus committed acts I hesitate to commit to the page, though Sisyphus is an exception to the rule. He earns the Furies' lashes for the crime of having once outsmarted the Lord Hades; cheated Death! A reckless plan, although he executed it, and bought himself a little extra time. Though now he pays for it, heaving that boulder constantly. And yet, the act of doing so for some interminable length of time seems to have imparted on him a certain kind of outlook on his life, such as it is; one that I may well do to study in my own ample supply of time to spare. For how is it that this knave of a forgotten king, stripped utterly of his nobility and subjected to a cruel torture for eternity, can show such grace? Sometimes I think the Master's carefree son takes after him. But they have seldom met; not since the Master finally understood his son would show this shade no cruelty at all."
+    },
+    {
+      "id": 4,
+      "name": "Eurydice",
+      "title": "Carefree Muse",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/7/78/Eurydice.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...Mortality and immortality are closer than most gods care to believe. There are such minor gods as can be killed. So it is with nymphs, and all the naiads and the dryads and the like, the spirits of the woods, and seas, and skies; in life, they captivate our mortal senses and imagination, but in death, we all are more alike. The nymph Eurydice, born of the oak itself, must know this better than her kind. She took a suitor who, by most accounts, was but a common mortal; talented beyond compare, but not a god. Yet, all the love they shared could not keep death from tearing them apart. She bears a special mention here for having almost fled the Underworld, once. Such was the full-hearted devotion of her mate, that he did venture all the way into this realm, in search of her, and treated with the Master for her soul. They say the Master almost let her go. But when he finally refused, she grieved, but she did not despair. Even in death, she moved on with her life."
+    },
+    {
+      "id": 5,
+      "name": "Patroclus",
+      "title": "Fallen Warrior",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/a/ac/Patroclus.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...Forgive me. It is not my place to say much of him, now. May his name yet live. May his soul bask forever in the glory of Elysium. No more. Fear is for the weak. Fear is for the weak. Fear is for the weak. Fear is for the weak. No more! I cannot risk it all. I cannot risk it all! I cannot risk it all, can I? I have risked everything already, have I not? Then, why not risk it all, again? Am I to risk it all? Why should I? For my own sake, at his own expense? Doubtless he drank already from the Lethe, and forgot. Would I have done the same? Would I do the same? Ah, life's final cruelty! That we still feel!"
+    },
+    {
+      "id": 6,
+      "name": "Theseus",
+      "title": "Hero of Athens",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/d/d8/Theseus.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...Oft called the great king of Athens, the hero Theseus is nonetheless best-known for his deeds earlier in life; deeds great enough to earn his immortal soul a place of high honor in hallowed Elysium. Now he reigns in this heaven of ours much as I understand he reigned in life; with pride and confidence both in abundance. The kings I knew in life aspired to the same. Yet, there is something distinctly different about him. I do not know if it was merely for pity that Theseus vouched for the bull-headed Asterius to join him in Elysium, doubtless risking his own station there. Some say Asterius is merely an unwilling servant of his, now. But I know mortal battle builds strong bonds. Is it so difficult to imagine that a peerless man like Theseus might find a peer in an unlikely soul?"
+    },
+    {
+      "id": 7,
+      "name": "Asterius",
+      "title": "Bull of Minos",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/5/50/Asterius.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...In life, the wretched abomination known as the Minotaur was feared across the coast of Greece; those cast into the Labyrinth in which he, himself, was trapped had no hope of escape. That was until the young hero Theseus entered the Labyrinth voluntarily, and slew him in what was, by most accounts, a spectacular battle. A famous tale -- but what happened when they reunited in death needs to be told, as well. Here, they say Theseus again discovered the Minotaur, whose soul had lingered restlessly at the edge of the Underworld, and Theseus took pity on him. Though, I think there is more to it than that. I think Theseus saw in the bull-man Asterius his greatest rival. Thus he offered Asterius a seat of honor in Elysium alongside him; a just result, for their fame and glory are intertwined."
+    },
+    {
+      "id": 8,
+      "name": "Cerberus",
+      "title": "Hound of Hell",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/4/45/Cerberus.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...The fearsome multi-headed hound of hell is really not so bad as his deserved reputation otherwise would lead you to believe. Yes, the massive beast has feasted on no short supply of interlopers to the Underworld, or on those attempting to escape. However, tales of the number of his heads are oft exaggerated, and in his old age, his temperament has grown much more relaxed. Indeed, he seems one of the sole sources of comfort for the House's grim Master. The fact that Cerberus now frequently rests at his Master's side also suggests the Underworld has new vulnerabilities, a source of some concern to the Lord Hades, who understandably takes pride in his domain's imposing reputation."
+    },
+    {
+      "id": 9,
+      "name": "Dusa",
+      "title": "Duty-Bound Gorgon",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/a/af/Dusa.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...A splendid House such as the Master's own requires a great deal of cleaning, and the little gorgon seems forever doomed to do it all herself. I sometimes offer my assistance, although it is here the little gorgon bares her fangs, refusing any help. That I can clearly see my own reflection in our polished countertops suggests she doesn't need it, either. Although she comes off as talkative, to my knowledge she has never been forthcoming about the circumstances that led her here. A background check confirmed she has only trace connections to the gorgons of Asphodel, though could not verify any connection to the notorious gorgon-sisters of the surface. The Master deemed further inquiry into this unlawful, and granted supervisory responsibilities to Nyx, who ensures the gorgon's workload is always full. In turn, the gorgon steadfastly accomplishes her duties, with diligence if not grace, perhaps finding pleasure purely in a job well done."
+    },
+    {
+      "id": 10,
+      "name": "Skelly",
+      "title": "Training Dummy",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/4/4d/Skelly.png",
+      "type": "Other Gods",
+      "favorited": false,
+      "description": "...The animated skeleton and I, we seldom get along. He is too talkative for me, and spouts such simple condescensions to all those in earshot, seemingly as though he were an expert in the ways of war. I disapprove of his reckless advice, and am uncertain as to who he was in life, to be so self-assured in death. I am uncertain as to why he is even here; it is quite odd the Master does not know of him, at all. Nevertheless, I sense that there is naught to fear from him. And, I have to confess, I admire the determination with which he carries out his task, of simply standing at attention, being beaten, often mercilessly, all for martial training's sake. My limited inquiries as to his origins have come up empty as of yet. I know only that he first appeared in the House's upper courtyard soon after the Master and his son had their latest, terrible exchange of words. To think, at first I thought the Master set this skeleton to work. But, if not the Master... who?"
+    }
+]
+}
