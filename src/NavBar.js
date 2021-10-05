@@ -21,7 +21,6 @@ function NavBar(){
 export default NavBar 
 const Nav = styled.ul `
 margin: 0;
-border: dashed;
 height: 10px;
 & li {
     display: inline;

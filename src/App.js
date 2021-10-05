@@ -73,6 +73,7 @@ const Parent = styled.div `
   margin: 5px;
   padding-bottom: 20px;
   padding-top: 20px;
+  height: 40px;
   }
   .div2 { grid-area: 2 / 1 / 6 / 2; }
   .div3 { grid-area: 2 / 2 / 5 / 6; }
