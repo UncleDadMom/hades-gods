@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { useParams } from "react-router"
 import { useState } from "react"
+import NoGod from './404';
 
 function GodDescription({featuredGod}){
     const {category} = useParams()
@@ -37,6 +38,8 @@ function GodDescription({featuredGod}){
                 </div>)
                 
                 break;
+            default: 
+                return (<NoGod></NoGod>)
     }}
     return (
         <GodDiv>
@@ -44,7 +47,7 @@ function GodDescription({featuredGod}){
             <h3>{featuredGod.title}</h3>
             <img src={featuredGod.image} alt={featuredGod.name}/>
             <p>{featuredGod.description}</p>
-            <button onClick={FavoriteButton}>{buttonLiked?"♥️":"♡"}</button>
+            <button onClick={FavoriteButton}>{featuredGod.favorited?"♥️":"♡"}</button>
         </GodDiv>
        
     )}

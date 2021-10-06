@@ -2,6 +2,7 @@ import GodName from "./GodName"
 import { useParams } from "react-router"
 import { useState, useEffect } from "react"
 
+
 function GodList({ describedGod}){
     const baseURL = "http://localhost:5000/"
     const [godCategory, setGodCategory] = useState([])
@@ -13,20 +14,17 @@ function GodList({ describedGod}){
             fetch(baseURL+category)
             .then(r=>r.json())
             .then(gods=>setGodCategory(gods))
-            break;
         case "Chthonic": 
             fetch(baseURL+category)
             .then(r=>r.json())
             .then(gods=>setGodCategory(gods))
-            break;
         case "Other": 
             fetch(baseURL+category)
             .then(r=>r.json())
             .then(gods=>setGodCategory(gods))
-            break;
         default:
-            console.log("default") 
-    }},[category])
+            console.log("default godList")
+        }},[category])
 
     
     return (
