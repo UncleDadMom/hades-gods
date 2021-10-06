@@ -40,7 +40,7 @@ function GodDescription({featuredGod}){
     }}
     return (
         <GodDiv>
-            <h2>{featuredGod.name}</h2>
+            <h2 style={nameBackground}>{featuredGod.name}</h2>
             <h3>{featuredGod.title}</h3>
             <img src={featuredGod.image} alt={featuredGod.name}/>
             <p>{featuredGod.description}</p>
@@ -51,7 +51,7 @@ function GodDescription({featuredGod}){
 
 export default GodDescription
 
-
+const nameBackground = {"background":"linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)"}
 const GodDiv = styled.div `
 font-family: ubuntu;
 & img {

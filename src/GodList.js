@@ -30,7 +30,7 @@ function GodList({ describedGod}){
 
     
     return (
-        <div>
+        <div className="div2">
            {godCategory.map(god=> <GodName describedGod={describedGod} god={god} key={god.id} />)} 
         </div>
     )

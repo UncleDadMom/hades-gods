@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 function NavBar(){
     return (
-        <Nav>
+            <Nav>
             <li>
             <NavLink exact to="/">Home</NavLink>
             </li>
