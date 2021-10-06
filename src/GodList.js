@@ -10,5 +10,5 @@ function GodList({godCategory, describedGod}){
 
 export default GodList
 const List = styled.div `
-   { grid-area: 1 / 1 / 2 / 6; }
+//    { grid-area: 1 / 1 / 2 / 6; }
 `

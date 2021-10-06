@@ -25,12 +25,10 @@ function App() {
   return (
  <BrowserRouter>
 
-  <img src={titlePhoto} width="100%"/>
+  <img src={titlePhoto} width="100%" alt="codex"/>
   <Parent>
     <div className="top"> 
-
-
-    <NavBar />
+     <NavBar />
   </div>
 
 <div className="div2"> 
@@ -75,8 +73,11 @@ const Parent = styled.div `
   padding-top: 20px;
   height: 40px;
   }
-  .div2 { grid-area: 2 / 1 / 6 / 2; }
-  .div3 { grid-area: 2 / 2 / 5 / 6; }
+  .div2 { grid-area: 2 / 1 / 6 / 2; 
+  height: 60px}
+   
+  .div3 { grid-area: 2 / 2 / 5 / 6; 
+  height: 60px}
 `
 
 
