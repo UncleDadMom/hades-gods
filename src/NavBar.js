@@ -5,7 +5,7 @@ function NavBar(){
     return (
         <Nav>
             <li>
-                <NavLink exact to="/">Home</NavLink>
+            <NavLink exact to="/">Home</NavLink>
             </li>
             <li>
             <NavLink to="/Olympian">Olympian</NavLink>

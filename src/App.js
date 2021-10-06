@@ -4,23 +4,16 @@ import { useState, useEffect } from "react"
 import GodList from './GodList';
 import NoGod from './404';
 import GodDescription from './Description';
-// import GodName from './GodName';
 import {BrowserRouter, Route, Switch} from "react-router-dom"
 import styled from "styled-components"
 
 function App() {
-  const baseURL = "http://localhost:5000/olympian"
-  const [godCategory, setGodCategory] = useState([])
   const [featuredGod, setFeaturedGod] = useState([])
 
   function describedGod(god){
     setFeaturedGod(god)
   }
-  useEffect(()=>{
-    fetch(baseURL)
-    .then(r=>r.json())
-    .then(gods=>setGodCategory(gods))
-  },[])
+
 
   return (
  <BrowserRouter>
@@ -28,19 +21,22 @@ function App() {
   <img src={titlePhoto} width="100%"/>
   <Parent>
     <div className="top"> 
-
-
     <NavBar />
-  </div>
-
-<div className="div2"> 
-   <GodList describedGod={describedGod} godCategory={godCategory}>
-    </GodList>
     </div>
+
+    <div className="div2"> 
+    <Switch>
+      <Route path="/:category">
+      <GodList describedGod={describedGod}></GodList>
+      </Route>
+    </Switch>
+    </div>
+
+
 
 <div className="div3">  
   <Switch>
-        <Route path="/test">
+        <Route>
           <GodDescription featuredGod={featuredGod}></GodDescription>
         </Route>
         <Route path="*">
@@ -49,12 +45,6 @@ function App() {
   </Switch></div>
 </Parent>
 
-
-  
-     
-      
-      
-     
     </BrowserRouter>
   );
 }
