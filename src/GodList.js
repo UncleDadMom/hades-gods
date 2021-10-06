@@ -1,8 +1,6 @@
-import styled from "styled-components"
 import GodName from "./GodName"
 import { useParams } from "react-router"
 import { useState, useEffect } from "react"
-import NoGod from "./404"
 
 function GodList({ describedGod}){
     const baseURL = "http://localhost:5000/"
@@ -30,6 +28,7 @@ function GodList({ describedGod}){
             console.log("default") 
     }},[category])
 
+    
     return (
         <div>
            {godCategory.map(god=> <GodName describedGod={describedGod} god={god} key={god.id} />)} 
