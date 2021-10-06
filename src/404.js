@@ -1,8 +1,8 @@
 function NoGod(){
     return (
-        <h1>
+        <div className="div2">
             404 God not found
-        </h1>
+        </div>
     )
 }
 export default NoGod

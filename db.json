@@ -1,13 +1,12 @@
-
 {
-
-    "Chthonic": [
-      {"id": 1,
+  "Chthonic": [
+    {
+      "id": 1,
       "name": "Lord Hades",
       "title": "God of the Dead",
-      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/64/Hades.png/",
+      "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/64/Hades.png",
       "type": "Chthonic Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...What else is there to say about the Master? Master not just of the House in which I work, but of the entirety of the domain beneath the earth, the place we all end up after we die. He is a god of character, I have to give him that. In life, I once served someone who reminded me of him a little, yet even the kingliest of mortals pales in comparison. Suffice it, then, to say that the Lord Hades takes matters of the Underworld in utmost seriousness. He is impatient with his only son. Impatient to make progress at his never-ending work, for he presides over an endless procession of the dead. The Master claims that he alone can tend to their affairs, but not-so-secretly, I think, desires that his son assisted him. The Master may be dedicated to his work, but has no love for it, nor does he harbor any love for his own family upon Olympus, whom I think he blames for every aspect of his misery. Perhaps you think that he is undeserving of one's sympathies; but, he has some of mine, and I am grateful to him, that he chose me, and released me from an aimless death, and into his employ."
     },
     {
@@ -91,17 +90,15 @@
       "favorited": false,
       "description": "...Even Nyx, our Mother Night, comes from somewhere; even the Olympians above, and the Master himself. Eternal though they are, they came unto this world after they, or their ancestors, sprang from the darkness of Chaos. Here, within the Underword, we are closer to Chaos than the mortals and the gods above. Closer to that first, long-forgotten, primordial consciousness, oft forgotten now or believed dead and gone. Yet, as all of us residing in this realm are well aware, the dead survive eternally, and thus are closer to the gods. Perhaps, then, all of us exist and make our choices precisely as Chaos envisioned in ancient aeons past."
     }
-    ],
-
-
-    "Olympian": [
-     {
+  ],
+  "Olympian": [
+    {
       "id": 1,
       "name": "Zeus",
       "title": "King of the Olympians",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/3/3c/Zeus.png",
       "type": "Olympian Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...The Master of the Heavens, god among gods; so much of my mortal life was impacted by him. And now, even in death, I serve his brother. I do not think that I have much to say for the Lord Zeus which is not widely known, already. Once, he overthrew the Titans, his own ancestors, to wrest control of all the heavens and the earth. He yet presides as ruler over all. Lord Hades bears no love for him, for reasons I can scarce begin to contemplate; it is as though Lord Hades chooses willingly not to consort with the Olympians."
     },
     {
@@ -110,7 +107,7 @@
       "title": "God of the Sea",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/4/43/Poseidon.png",
       "type": "Olympian Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...The Master of the Seas, the Earthshaker, Brother to Lord Hades and Lord Zeus... the Lord Poseidon. I am ever grateful that, while I was living, he was merciful to me. Down here, however, I must say I rarely feel his influence. All of us... we are beneath him, now. How many of my brethren did he drown during my mortal days? He comes across as affable, yet I've not forgiven him. Lord Hades seems to have no love for him, either, equating him to Zeus, and shunning both alike. It's all a business best avoided by my estimation."
     },
     {
@@ -176,16 +173,15 @@
       "favorited": false,
       "description": "...Over time, mortals have come to fear great Demeter, eldest of Olympians, goddess of seasons, bringer of plenty, and taker-away of it. I cannot imagine she is moved by any of their offerings. Much is said of her in hushed tones, not unlike the ones reserved for the master here. Once, she administered her gifts of sustenance with generosity, until some stroke of Fate befell. She changed, and never been as giving since. The mortals who once prayed to her for plenty now beg mostly for mercy. My understanding is, despite popular belief, Demeter is no direct relation to Lord Hades or his brothers, being born of more ancient Titan stock; she certainly has taken pains to distance herself from Zeus in particular, often leaving Olympus for long stretches, in search of something. Or someone. Not that I would know a thing of it; only the mutterings of shades descended to this realm from freezing cold or famine. Surely, they pray, the seasons are due for a turn for the better?"
     }
-],
-
-    "Other": [
-        {
+  ],
+  "Other": [
+    {
       "id": 1,
       "name": "Achilles",
       "title": "Forgotten Hero",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/88/Achilles.png",
       "type": "Other Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...I see no reason to regale you with stories of my past. Suffice it that I fought, as bravely as I could, alongside many of the finest men the world has ever known. I buried far too many of them, and sent many others to this place, where now at last we are all peers. I am fortunate that the Master of the House took pity upon me, and spared me from eternal boredom in Elysium with an existence closer to the times when I still lived, and had a job to do. Yet, I am unmade, unwhole, here in this place; alone, without the one with whom I shared my life when we were flesh and blood. He is somewhere within this realm, yet our time, I think, is long since passed. But, I have made mistakes before... So many! Surely, in believing this, I could be making yet another? The infinite awaits. Given limitless time... is anything truly impossible? Yet, our finite mortal time both limits us and spurs our actions. Thus, now, I am always of two minds."
     },
     {
@@ -269,5 +265,5 @@
       "favorited": false,
       "description": "...The animated skeleton and I, we seldom get along. He is too talkative for me, and spouts such simple condescensions to all those in earshot, seemingly as though he were an expert in the ways of war. I disapprove of his reckless advice, and am uncertain as to who he was in life, to be so self-assured in death. I am uncertain as to why he is even here; it is quite odd the Master does not know of him, at all. Nevertheless, I sense that there is naught to fear from him. And, I have to confess, I admire the determination with which he carries out his task, of simply standing at attention, being beaten, often mercilessly, all for martial training's sake. My limited inquiries as to his origins have come up empty as of yet. I know only that he first appeared in the House's upper courtyard soon after the Master and his son had their latest, terrible exchange of words. To think, at first I thought the Master set this skeleton to work. But, if not the Master... who?"
     }
-]
+  ]
 }

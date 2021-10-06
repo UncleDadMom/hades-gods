@@ -3,9 +3,10 @@ import NavBar from './NavBar';
 import { useState, useEffect } from "react"
 import GodList from './GodList';
 import NoGod from './404';
-import GodDescription from './Description';
+import GodDescription from './GodDescription';
 import {BrowserRouter, Route, Switch} from "react-router-dom"
 import styled from "styled-components"
+import WelcomePage from "./WelcomePage"
 
 function App() {
   const [featuredGod, setFeaturedGod] = useState([])
@@ -18,31 +19,30 @@ function App() {
   return (
  <BrowserRouter>
 
-  <img src={titlePhoto} width="100%"/>
+  <img src={titlePhoto} width="100%" alt="codex"/>
   <Parent>
     <div className="top"> 
-    <NavBar />
+     <NavBar />
     </div>
 
-    <div className="div2"> 
     <Switch>
       <Route path="/:category">
+    <div className="div2"> 
       <GodList describedGod={describedGod}></GodList>
+    </div>
+    <div className="div3">  
+      <GodDescription featuredGod={featuredGod}></GodDescription>
+    </div>
+      </Route>
+
+      <Route path="/">
+      <div className="div3">  
+        <WelcomePage></WelcomePage>
+      </div>
       </Route>
     </Switch>
-    </div>
 
-
-
-<div className="div3">  
-  <Switch>
-        <Route>
-          <GodDescription featuredGod={featuredGod}></GodDescription>
-        </Route>
-        <Route path="*">
-          <NoGod></NoGod>
-        </Route>
-  </Switch></div>
+          
 </Parent>
 
     </BrowserRouter>
@@ -65,8 +65,11 @@ const Parent = styled.div `
   padding-top: 20px;
   height: 40px;
   }
-  .div2 { grid-area: 2 / 1 / 6 / 2; }
-  .div3 { grid-area: 2 / 2 / 5 / 6; }
+  .div2 { grid-area: 2 / 1 / 6 / 2; 
+  height: 60px}
+   
+  .div3 { grid-area: 2 / 2 / 5 / 6; 
+  height: 60px}
 `
 
 

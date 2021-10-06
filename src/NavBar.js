@@ -13,18 +13,23 @@ function NavBar(){
             <li>
             <NavLink to="/Chthonic">Chthonic</NavLink>
             </li>
-            <NavLink to="/Other">Other</NavLink>
+            <li><NavLink to="/Other">Other</NavLink></li>
         </Nav>    
     )
 }
 
 export default NavBar 
 const Nav = styled.ul `
-margin: 0;
+margin: 10px;
 height: 10px;
 & li {
     display: inline;
-    margin: 10px;
+    margin: 25px;
     padding: 25px;
+    background-color:white;
+    & a {
+        color: black;
+        text-decoration: none;
+    }
 }
 `
