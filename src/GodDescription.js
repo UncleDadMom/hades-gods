@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { useParams } from "react-router"
-import { useState, useEffect } from "react"
 import NoGod from './404';
 import Button from "./Button";
 

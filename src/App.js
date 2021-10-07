@@ -1,10 +1,8 @@
-import titlePhoto from "./CodexOfTheUnderworld.png"
 import NavBar from './NavBar';
 import { useState} from "react"
 import GodList from './GodList';
-
 import GodDescription from './GodDescription';
-import {BrowserRouter, Route, Switch} from "react-router-dom"
+import {Route, Switch} from "react-router-dom"
 import styled from "styled-components"
 import WelcomePage from "./WelcomePage"
 
@@ -12,37 +10,27 @@ function App() {
   const [featuredGod, setFeaturedGod] = useState([])
   const [buttonLiked, setButtonLiked] = useState([])
 
-
   return (
- <BrowserRouter>
-
-  <img src={titlePhoto} width="100%" alt="codex"/>
-  <Parent>
-    <div className="top"> 
-     <NavBar setFeaturedGod={setFeaturedGod}/>
-    </div>
-
-    <Switch>
-      <Route path="/:category">
-    <div className="div2"> 
-      <GodList setButtonLiked={setButtonLiked} setFeaturedGod={setFeaturedGod}></GodList>
-    </div>
-    <div className="div3">  
-      <GodDescription button={buttonLiked} setButton={setButtonLiked} setFeaturedGod={setFeaturedGod} featuredGod={featuredGod}></GodDescription>
-    </div>
-      </Route>
-
-      <Route path="/">
-      <div className="div3">  
-        <WelcomePage></WelcomePage>
+    <div className="parent">
+      <div className="top"> 
+        <NavBar setFeaturedGod={setFeaturedGod}/>
       </div>
-      </Route>
-    </Switch>
-
-          
-</Parent>
-
-    </BrowserRouter>
+      <Switch>
+        <Route path="/:category">
+          <div className="list"> 
+            <GodList setButtonLiked={setButtonLiked} setFeaturedGod={setFeaturedGod}></GodList>
+          </div>
+          <div className="featured">  
+            <GodDescription button={buttonLiked} setButton={setButtonLiked} setFeaturedGod={setFeaturedGod} featuredGod={featuredGod}></GodDescription>
+          </div>
+        </Route>
+        <Route path="/">
+          <div className="featured">  
+            <WelcomePage></WelcomePage>
+          </div>
+        </Route>
+      </Switch>
+    </div>
   );
 }
 

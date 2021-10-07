@@ -3,7 +3,9 @@ import styled from "styled-components"
 function WelcomePage(){
     return (
         <GodDiv>
-            <p>Welcome</p>
+            <h1>Hello, Underworld!</h1>
+            <p> Welcome to our attempt at replicating the codex from Hades, the best video game of 2021 </p>
+            <img src="https://static.wikia.nocookie.net/hades_gamepedia_en/images/2/23/CodexScreen.png" alt="The actual codex in the game"/>
         </GodDiv>
     )
 }
