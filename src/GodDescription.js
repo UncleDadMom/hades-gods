@@ -1,12 +1,11 @@
 import styled from "styled-components"
 import { useParams } from "react-router"
-import { useState, useEffect } from "react"
 import NoGod from './404';
 import Button from "./Button";
 
 function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
     const {category} = useParams()
-  
+        //landing pages for each category
         if (featuredGod.length ===0) {
             switch(category) {
             case "Olympian": 
