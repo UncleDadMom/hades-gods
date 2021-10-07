@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 function NavBar({setFeaturedGod}){
     return (
-        <Nav>
+            <Nav>
             <li onClick={()=>setFeaturedGod([])}>
             <NavLink exact to="/">Home</NavLink>
             </li>
