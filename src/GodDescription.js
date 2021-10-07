@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
     const {category} = useParams()
-  
+        //landing pages for each category
         if (featuredGod.length ===0) {
             switch(category) {
             case "Olympian": 

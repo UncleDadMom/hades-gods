@@ -22,14 +22,22 @@ export default NavBar
 const Nav = styled.ul `
 margin: 10px;
 height: 10px;
+width: 400px;
 & li {
     display: inline;
     margin: 25px;
     padding: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
     background-color:white;
+    &:hover {
+        background: #D3D3D3;
+    }
     & a {
         color: black;
         text-decoration: none;
     }
 }
 `
+
