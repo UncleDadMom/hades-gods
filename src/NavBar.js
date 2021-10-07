@@ -19,6 +19,7 @@ function NavBar({setFeaturedGod}){
 }
 
 export default NavBar 
+
 const Nav = styled.ul `
 margin: 10px;
 height: 10px;
