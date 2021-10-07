@@ -1,7 +1,7 @@
 import { useParams } from "react-router"
 import styled from "styled-components"
 
-function GodName({god, setFeaturedGod, setButtonLiked}){
+function GodName({god, setFeaturedGod, setButtonLiked, filteredGods}){
     const {category}=useParams()
     function describedGod(god){
         fetch(`http://localhost:5000/${category}/${god.id}`)

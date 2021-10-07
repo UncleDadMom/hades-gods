@@ -65,6 +65,7 @@ font-family: ubuntu;
     float: right;
     margin: 20px;
     box-shadow: 10px 10px 5px grey;
+
 }
   h2 {
       font-size: 60px;
