@@ -22,7 +22,7 @@ function GodName({god, setFeaturedGod, setButtonLiked}){
 export default GodName
 const GodNameItems = styled.li `
     font-family: ubuntu;
-    list-style-type: none;You 
+    list-style-type: none; 
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
