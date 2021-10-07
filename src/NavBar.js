@@ -1,19 +1,19 @@
 import {NavLink} from "react-router-dom"
 import styled from "styled-components"
 
-function NavBar(){
+function NavBar({setFeaturedGod}){
     return (
             <Nav>
-            <li>
+            <li onClick={()=>setFeaturedGod([])}>
             <NavLink exact to="/">Home</NavLink>
             </li>
-            <li>
+            <li onClick={()=>setFeaturedGod([])}>
             <NavLink to="/Olympian">Olympian</NavLink>
             </li>
-            <li>
+            <li onClick={()=>setFeaturedGod([])}>
             <NavLink to="/Chthonic">Chthonic</NavLink>
             </li>
-            <li><NavLink to="/Other">Other</NavLink></li>
+            <li onClick={()=>setFeaturedGod([])}><NavLink to="/Other">Other</NavLink></li>
         </Nav>    
     )
 }

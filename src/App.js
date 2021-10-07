@@ -1,8 +1,8 @@
 import titlePhoto from "./CodexOfTheUnderworld.png"
 import NavBar from './NavBar';
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import GodList from './GodList';
-import NoGod from './404';
+
 import GodDescription from './GodDescription';
 import {BrowserRouter, Route, Switch} from "react-router-dom"
 import styled from "styled-components"
@@ -10,10 +10,7 @@ import WelcomePage from "./WelcomePage"
 
 function App() {
   const [featuredGod, setFeaturedGod] = useState([])
-
-  function describedGod(god){
-    setFeaturedGod(god)
-  }
+  const [buttonLiked, setButtonLiked] = useState([])
 
 
   return (
@@ -22,16 +19,16 @@ function App() {
   <img src={titlePhoto} width="100%" alt="codex"/>
   <Parent>
     <div className="top"> 
-     <NavBar />
+     <NavBar setFeaturedGod={setFeaturedGod}/>
     </div>
 
     <Switch>
       <Route path="/:category">
     <div className="div2"> 
-      <GodList describedGod={describedGod}></GodList>
+      <GodList setButtonLiked={setButtonLiked} setFeaturedGod={setFeaturedGod}></GodList>
     </div>
     <div className="div3">  
-      <GodDescription featuredGod={featuredGod}></GodDescription>
+      <GodDescription button={buttonLiked} setButton={setButtonLiked} setFeaturedGod={setFeaturedGod} featuredGod={featuredGod}></GodDescription>
     </div>
       </Route>
 

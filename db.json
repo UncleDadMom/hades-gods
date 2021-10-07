@@ -24,7 +24,7 @@
       "title": "Night Incarnate",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/8/8e/Nyx.png",
       "type": "Chthonic Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...Mother Night, we like to call her, though rare is the occasion when she dotes on us. She has her many, many children to look after, many of whom reside now in locales beyond my reckoning, and perhaps beyond hers. Yet, nonetheless, she toils about the Master's House, and conducts such affairs that fail to reach his notice or gain his attention. She and the Master do enjoy a sort of harmony, for even as he tends personally to the dead, she watches over the domain itself. They tolerate each other, in respect of one another's power."
     },
     {
@@ -98,7 +98,7 @@
       "title": "King of the Olympians",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/3/3c/Zeus.png",
       "type": "Olympian Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...The Master of the Heavens, god among gods; so much of my mortal life was impacted by him. And now, even in death, I serve his brother. I do not think that I have much to say for the Lord Zeus which is not widely known, already. Once, he overthrew the Titans, his own ancestors, to wrest control of all the heavens and the earth. He yet presides as ruler over all. Lord Hades bears no love for him, for reasons I can scarce begin to contemplate; it is as though Lord Hades chooses willingly not to consort with the Olympians."
     },
     {
@@ -190,7 +190,7 @@
       "title": "Court Musician",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/f/f4/Orpheus_new.png",
       "type": "Other Gods",
-      "favorited": true,
+      "favorited": false,
       "description": "...No one sings a sweeter, sadder song than Orpheus, who, if I'm to understand correctly, is among the only mortals who once ventured down into the Underworld, and returned to tell the tale. He now resides among us permanently, ever mournful of what could have been. The Master seems to take some pity on him, though, or simply likes his songs; he serves as court musician in the House. I empathize with his desire for reunion with the shade of one he's loved and lost. But, sometimes, I fear that Orpheus seems to have lost more than his love. I pray that he shall find his muse eventually. For if he cannot... if someone who once had such fiery resolve could be brought so low, become so utterly resigned in death... what hope do any of us have? The consolation of eternity is knowing we all can resolve our problems, given enough time and effort. But the terror of it is knowing we cannot escape those problems, either."
     },
     {
@@ -199,7 +199,7 @@
       "title": "Tortured Soul",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/a/a5/Sisyphus_final.png",
       "type": "Other Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...Most of those who earn the highest form of punishment in Tartarus committed acts I hesitate to commit to the page, though Sisyphus is an exception to the rule. He earns the Furies' lashes for the crime of having once outsmarted the Lord Hades; cheated Death! A reckless plan, although he executed it, and bought himself a little extra time. Though now he pays for it, heaving that boulder constantly. And yet, the act of doing so for some interminable length of time seems to have imparted on him a certain kind of outlook on his life, such as it is; one that I may well do to study in my own ample supply of time to spare. For how is it that this knave of a forgotten king, stripped utterly of his nobility and subjected to a cruel torture for eternity, can show such grace? Sometimes I think the Master's carefree son takes after him. But they have seldom met; not since the Master finally understood his son would show this shade no cruelty at all."
     },
     {
@@ -208,7 +208,7 @@
       "title": "Carefree Muse",
       "image": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/7/78/Eurydice.png",
       "type": "Other Gods",
-      "favorited": false,
+      "favorited": true,
       "description": "...Mortality and immortality are closer than most gods care to believe. There are such minor gods as can be killed. So it is with nymphs, and all the naiads and the dryads and the like, the spirits of the woods, and seas, and skies; in life, they captivate our mortal senses and imagination, but in death, we all are more alike. The nymph Eurydice, born of the oak itself, must know this better than her kind. She took a suitor who, by most accounts, was but a common mortal; talented beyond compare, but not a god. Yet, all the love they shared could not keep death from tearing them apart. She bears a special mention here for having almost fled the Underworld, once. Such was the full-hearted devotion of her mate, that he did venture all the way into this realm, in search of her, and treated with the Master for her soul. They say the Master almost let her go. But when he finally refused, she grieved, but she did not despair. Even in death, she moved on with her life."
     },
     {

@@ -1,30 +1,18 @@
 import styled from "styled-components"
 import { useParams } from "react-router"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import NoGod from './404';
+import Button from "./Button";
 
-function GodDescription({featuredGod}){
+function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
     const {category} = useParams()
-    const [buttonLiked, setButtonLiked] = useState(false)
-    function FavoriteButton(){
-        fetch(`http://localhost:5000/${category}/${featuredGod.id}`,{
-          method:'PATCH',
-          headers:{
-            'Content-Type':'application/json'
-          },
-          body:JSON.stringify({favorited: !featuredGod.favorited})
-        })
-        .then(res => res.json())
-        .then(()=>setButtonLiked(!buttonLiked))
-    
-        }
-    if (featuredGod.length === 0) {
-        console.log("empty array")
-        switch(category) {
+  
+        if (featuredGod.length ===0) {
+            switch(category) {
             case "Olympian": 
-                return (<div className="div3">
+                return <div className="div3">
                     <p>Olympians #1</p>
-                </div>)
+                </div>
                 break;
             case "Chthonic": 
                 return (<div className="div3">
@@ -41,13 +29,27 @@ function GodDescription({featuredGod}){
             default: 
                 return (<NoGod></NoGod>)
     }}
+    function favoriteButton(){
+        fetch(`http://localhost:5000/${category}/${featuredGod.id}`,{
+          method:'PATCH',
+          headers:{
+            'Content-Type':'application/json'
+          },
+          body:JSON.stringify({favorited: !featuredGod.favorited})
+        })
+        .then(res => res.json())
+        .then((god)=>{
+            setButton(god.favorited)
+            setFeaturedGod(god)
+        })
+    }
     return (
         <GodDiv>
             <h2 style={nameBackground}>{featuredGod.name}</h2>
             <h3>{featuredGod.title}</h3>
             <img src={featuredGod.image} alt={featuredGod.name}/>
             <p>{featuredGod.description}</p>
-            <button onClick={FavoriteButton}>{featuredGod.favorited?"♥️":"♡"}</button>
+            <Button button={button} favoriteButton={favoriteButton}/>
         </GodDiv>
        
     )}

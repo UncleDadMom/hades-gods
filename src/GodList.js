@@ -3,7 +3,7 @@ import { useParams } from "react-router"
 import { useState, useEffect } from "react"
 
 
-function GodList({ describedGod}){
+function GodList({ setFeaturedGod, setButtonLiked}){
     const baseURL = "http://localhost:5000/"
     const [godCategory, setGodCategory] = useState([])
     const {category} = useParams()
@@ -14,22 +14,25 @@ function GodList({ describedGod}){
             fetch(baseURL+category)
             .then(r=>r.json())
             .then(gods=>setGodCategory(gods))
+            break;
         case "Chthonic": 
             fetch(baseURL+category)
             .then(r=>r.json())
             .then(gods=>setGodCategory(gods))
+            break;
         case "Other": 
             fetch(baseURL+category)
             .then(r=>r.json())
             .then(gods=>setGodCategory(gods))
-        default:
-            console.log("default godList")
+            break;
+        default: 
+            console.log("default GodList")
         }},[category])
 
     
     return (
         <div className="div2">
-           {godCategory.map(god=> <GodName describedGod={describedGod} god={god} key={god.id} />)} 
+           {godCategory.map(god=> <GodName setButtonLiked={setButtonLiked} setFeaturedGod={setFeaturedGod}  god={god} key={god.id} />)} 
         </div>
     )
 }

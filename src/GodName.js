@@ -1,11 +1,22 @@
+import { useParams } from "react-router"
 import styled from "styled-components"
 
-function GodName({god, describedGod}){
+function GodName({god, setFeaturedGod, setButtonLiked}){
+    const {category}=useParams()
+    function describedGod(god){
+        fetch(`http://localhost:5000/${category}/${god.id}`)
+        .then(r=>r.json())
+        .then((god)=>{
+            setFeaturedGod(god)
+            setButtonLiked(god.favorited)
+        })
+        
+    }
     return (
         <GodNameItems onClick={()=>describedGod(god)}>
             {god.name}
         </GodNameItems>
-
+    //click on god name, need to re-render button component
     )
 }
 export default GodName
