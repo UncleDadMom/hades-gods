@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 function NavBar({setFeaturedGod}){
     return (
-        <Nav>
+            <Nav>
             <li onClick={()=>setFeaturedGod([])}>
             <NavLink exact to="/">Home</NavLink>
             </li>
@@ -22,7 +22,6 @@ export default NavBar
 const Nav = styled.ul `
 margin: 10px;
 height: 10px;
-width: 400px;
 & li {
     display: inline;
     margin: 25px;

@@ -9,20 +9,21 @@ function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
         if (featuredGod.length ===0) {
             switch(category) {
             case "Olympian": 
-                return <div className="div3">
-                    <p>Olympians #1</p>
-                </div>
+                return <GodDiv>
+                    <p>The Olympians are a group gods who ruled after the overthow of the Titans. All the Olympians are related in some way. They are named after their dwelling place Mount Olympus.
+</p>
+                </GodDiv>
                 break;
             case "Chthonic": 
-                return (<div className="div3">
-                    <p>Fuck the Olympians</p>
-                </div>)
+                return (<GodDiv>
+                    <p>These deities or gods are related to the subterranean underworld, where souls of the dead go. They are also associated with sacrificial rituals, when the cults made offerings to the gods in or beneath the earth itself by throwing animals into the underground pit and pouring liquids into it.</p>
+                </GodDiv>)
                 
                 break;
             case "Other": 
-                 return (<div className="div3">
-                    <p>I'm just tryna live</p>
-                </div>)
+                 return (<GodDiv>
+                    <p>You can't put these gods in a box!</p>
+                </GodDiv>)
                 
                 break;
             default: 
