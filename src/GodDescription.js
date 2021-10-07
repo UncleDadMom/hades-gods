@@ -60,7 +60,7 @@ const nameBackground = {"background":"linear-gradient(to right, #BF953F, #FCF6BA
 const GodDiv = styled.div `
 font-family: ubuntu;
 & img {
-    float: left; 
+    float: right;
     margin: 20px;
     box-shadow: 10px 10px 5px grey;
 }

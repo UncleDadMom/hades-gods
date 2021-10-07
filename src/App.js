@@ -65,7 +65,7 @@ const Parent = styled.div `
   .div2 { grid-area: 2 / 1 / 6 / 2; 
   height: 60px}
    
-  .div3 { grid-area: 2 / 2 / 5 / 6; 
+  .div3 { grid-area: 2 / 2 / 4 / 6; 
   height: 60px}
 `
 
