@@ -25,7 +25,7 @@ function App() {
           </div>
         </Route>
         <Route path="/">
-          <div className="featured">  
+          <div className="welcome">  
             <WelcomePage></WelcomePage>
           </div>
         </Route>
