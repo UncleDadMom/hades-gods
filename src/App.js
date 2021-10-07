@@ -3,7 +3,6 @@ import { useState} from "react"
 import GodList from './GodList';
 import GodDescription from './GodDescription';
 import {Route, Switch} from "react-router-dom"
-import styled from "styled-components"
 import WelcomePage from "./WelcomePage"
 
 function App() {
@@ -35,27 +34,6 @@ function App() {
 }
 
 export default App;
-const Parent = styled.div `
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  
-  .top { grid-area: 1 / 1 / 2 / 6;
-  background-color: grey; 
-  font-family: ubuntu;
-  margin: 5px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  height: 40px;
-  }
-  .div2 { grid-area: 2 / 1 / 6 / 2; 
-  height: 60px}
-   
-  .div3 { grid-area: 2 / 2 / 4 / 6; 
-  height: 60px}
-`
 
 
 

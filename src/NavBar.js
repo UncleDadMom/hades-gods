@@ -20,13 +20,10 @@ function NavBar({setFeaturedGod}){
 
 export default NavBar 
 const Nav = styled.ul `
-margin: 10px;
-height: 10px;
-width: 400px;
 & li {
     display: inline;
     margin: 25px;
-    padding: 25px;
+    padding: 10px 20px 10px 20px;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;

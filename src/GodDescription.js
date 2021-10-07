@@ -9,20 +9,20 @@ function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
         if (featuredGod.length ===0) {
             switch(category) {
             case "Olympian": 
-                return <div className="div3">
-                    <p>Olympians #1</p>
-                </div>
+                return <GodDiv>
+                    <h2>Olympians #1</h2>
+                </GodDiv>
                 break;
             case "Chthonic": 
-                return (<div className="div3">
-                    <p>Fuck the Olympians</p>
-                </div>)
+                return (<GodDiv>
+                    <h2>Fuck the Olympians</h2>
+                </GodDiv>)
                 
                 break;
             case "Other": 
-                 return (<div className="div3">
-                    <p>I'm just tryna live</p>
-                </div>)
+                 return (<GodDiv>
+                    <h3>I'm just tryna live</h3>
+                </GodDiv>)
                 
                 break;
             default: 
