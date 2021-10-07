@@ -2,6 +2,8 @@ import styled from "styled-components"
 import { useParams } from "react-router"
 import NoGod from './404';
 import Button from "./Button";
+import ModalImage from "react-modal-image";
+
 
 function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
     const {category} = useParams()
@@ -47,7 +49,7 @@ function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
         <GodDiv>
             <h2 style={nameBackground}>{featuredGod.name}</h2>
             <h3>{featuredGod.title}</h3>
-            <img src={featuredGod.image} alt={featuredGod.name}/>
+            <ModalImage small={featuredGod.image} large={featuredGod.image} alt={featuredGod.name}/>
             <p>{featuredGod.description}</p>
             <Button button={button} favoriteButton={favoriteButton}/>
         </GodDiv>
