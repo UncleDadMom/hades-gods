@@ -34,23 +34,14 @@ function GodList({ setFeaturedGod, setButtonLiked}){
             console.log("default GodList")
         }},[category])
 
-    
-    
         const fave = godCategory.filter(god => god.favorited === true)
-        const unfave = godCategory.filter(god => god.favorited === false)
-        console.log(fave)
-        console.log(unfave)
+        // const unfave = godCategory.filter(god => god.favorited === false)
+        // console.log(fave)
+        // console.log(unfave)
 
-        function showFaves (e) {
-            console.log(e)
+        function showFaves (    ) {
             setFavesOnly(!favesOnly)
-
         }
-            
-
-
-
-
 
     return (
         <div className="div2">
@@ -58,8 +49,6 @@ function GodList({ setFeaturedGod, setButtonLiked}){
      {favesOnly ? fave.map(god=> <GodName setButtonLiked={setButtonLiked} setFeaturedGod={setFeaturedGod}  god={god} key={god.id}/>) : godCategory.map(god=> <GodName setButtonLiked={setButtonLiked} setFeaturedGod={setFeaturedGod}  god={god} key={god.id}/>)}
         
         <FavesOnly onClick={showFaves}>show/hides faves</FavesOnly>
-
-
 
         </div>
     )

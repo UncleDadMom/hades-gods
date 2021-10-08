@@ -49,7 +49,7 @@ function GodDescription({featuredGod, setFeaturedGod, button, setButton}){
         <GodDiv>
             <h2 style={nameBackground}>{featuredGod.name}</h2>
             <h3>{featuredGod.title}</h3>
-            <ModalImage small={featuredGod.image} large={featuredGod.image} alt={featuredGod.name}/>
+            <ModalImage className="modal-image" small={featuredGod.image} large={featuredGod.image} alt={featuredGod.name}/>
             <p>{featuredGod.description}</p>
             <Button button={button} favoriteButton={favoriteButton}/>
         </GodDiv>
@@ -62,10 +62,11 @@ const nameBackground = {"background":"linear-gradient(to right, #BF953F, #FCF6BA
 const GodDiv = styled.div `
 font-family: ubuntu;
 & img {
-    float: right;
+    float: left;
     margin: 20px;
     box-shadow: 10px 10px 5px grey;
-
+    height: auto;
+    width: auto;
 }
   h2 {
       font-size: 60px;
